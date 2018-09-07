@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-exit 0
+exitStatus=1
+if [ $exitStatus -ne 0 ]; then
+  echo "Unit test failing with status = $exitStatus"
+fi
+exit $exitStatus
