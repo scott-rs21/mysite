@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/RS21_logo.png">
     <h1>{{ msg }}</h1>
-    This site intentionally left blank.
+    This site intentionally left blank.  This is a <a href="https://vuejs.org" target="_blank">new link</a>.
   </div>
 </template>
 
