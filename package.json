@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "package": "npm run build && npm run make-package",
+    "make-package": "./make-package.sh",
     "unit": "tests/unit/unit-tests.sh",
     "ui": "tests/ui/ui-tests.sh",
     "test": "npm run ui && npm run unit"
