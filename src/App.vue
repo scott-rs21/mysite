@@ -2,7 +2,12 @@
   <div id="app">
     <img src="./assets/RS21_logo.png">
     <h1>{{ msg }}</h1>
+    <p>
     This site intentionally left blank.  This is a <a href="https://vuejs.org" target="_blank">new link</a>.
+    </p>
+    <p>
+    <span class="box">This text is intentional.</span>
+    </p>
   </div>
 </template>
 
@@ -25,6 +30,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.box {
+  border: thin solid black;
+  color: #ccc;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 h1, h2 {
