@@ -3,11 +3,11 @@
 releaseTarball=release.tgz
 codecheckTarball=code-check.tgz
 
-if [-e $releaseTarball ]; then
+if [ -e $releaseTarball ]; then
   rm -f $releaseTarball
 fi
 
-if [-e $codecheckTarball ]; then
+if [ -e $codecheckTarball ]; then
   rm -f $codecheckTarball
 fi
 
