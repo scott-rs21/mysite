@@ -8,6 +8,9 @@
     <p>
     <span class="box">This text is intentional.</span>
     </p>
+    <p>
+    <span class="box2">This more intention.</span>
+    </p>
   </div>
 </template>
 
@@ -35,6 +38,13 @@ export default {
 .box {
   border: thin solid black;
   color: #ccc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.box2 {
+  border: thin dashed green;
+  color: #999;
   padding-left: 1rem;
   padding-right: 1rem;
 }
